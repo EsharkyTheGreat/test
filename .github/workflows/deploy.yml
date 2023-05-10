@@ -2,7 +2,7 @@ name: Deploy via SSH
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 jobs:
   echo-hello-world:
     runs-on: ubuntu-latest
