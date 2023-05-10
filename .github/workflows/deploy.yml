@@ -1,0 +1,10 @@
+name: Deploy via SSH
+
+on:
+  push:
+    branches: [master]
+jobs:
+  echo-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World from GithubActions"
